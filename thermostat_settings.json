@@ -1,0 +1,52 @@
+{
+    "calibration": {
+        "boilingMeasured": 99.098043,
+        "elevation": 269,
+        "freezingMeasured": 0.01
+    },
+    "logging": {
+        "channel": "file",
+        "level": "state"
+    },
+    "mqtt": {
+        "clientID": "thermostat",
+        "enabled": 0,
+        "port": 1883,
+        "pubPrefix": "mymqtt",
+        "server": "localhost"
+    },
+    "pir": {
+        "pirCheckInterval": 0.5,
+        "pirEnabled": 1,
+        "pirIgnoreFrom": "00:00",
+        "pirIgnoreTo": "00:00",
+        "pirPin": 5
+    },
+    "scale": {
+        "tempScale": "metric"
+    },
+    "thermostat": {
+        "coolPin": 18,
+        "fanPin": 25,
+        "heatPin": 23,
+        "maxTemp": 30.0,
+        "minTemp": 15.0,
+        "minUIEnabled": 1,
+        "minUITimeout": 60,
+        "tempCheckInterval": 3,
+        "tempHysteresis": 0.5,
+        "tempStep": 0.5
+    },
+    "weather": {
+        "appkey": "6c0656abd51a51e96a36b06b774aa90c",
+        "forecastRefreshInterval": 60,
+        "location": "Huntsville,al",
+        "weatherExceptionInterval": 5,
+        "weatherRefreshInterval": 10,
+		"URLtimeout": 5
+    },
+    "web": {
+        "host": "discover",
+        "port": 80
+    }
+}
